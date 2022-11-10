@@ -55,10 +55,10 @@ public class Cerchio extends Forma {
         if (Double.doubleToLongBits(raggio) != Double.doubleToLongBits(other.raggio))
             return false;
         return true;
-    }
-<<<<<<< HEAD
+    }<<<<<<<HEAD
 
-=======
-    
->>>>>>> ae52c1e95ac618ada9a597be88cea644dd686dd2
+    =======
+
+    >>>>>>>ae52c1e95ac618ada9a597be88cea644dd686dd2
 }
+// jhlkkkkkkkhjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
