@@ -17,5 +17,23 @@ public class Rettangolo extends Forma {
     public double perimetro() {
         return 2*(altezza*lunghezza);
     }
+
+    public double getLunghezza() {
+        return lunghezza;
+    }
+
+    public void setLunghezza(double lunghezza) {
+        this.lunghezza = lunghezza;
+    }
+
+    public double getAltezza() {
+        return altezza;
+    }
+
+    public void setAltezza(double altezza) {
+        this.altezza = altezza;
+    }
+
+    
     
 }
