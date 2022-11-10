@@ -2,7 +2,7 @@ public class Rettangolo extends Forma {
 
     private double lunghezza;
     private double altezza;
-    
+
     public Rettangolo(double lunghezza, double larghezza) {
         this.lunghezza = lunghezza;
         this.altezza = larghezza;
@@ -10,12 +10,12 @@ public class Rettangolo extends Forma {
 
     @Override
     public double area() {
-        return lunghezza*altezza;
+        return lunghezza * altezza;
     }
 
     @Override
     public double perimetro() {
-        return 2*(altezza*lunghezza);
+        return 2 * (altezza * lunghezza);
     }
 
     public double getLunghezza() {
@@ -36,7 +36,7 @@ public class Rettangolo extends Forma {
 
     @Override
     public int hashCode() {
-        final int prime = 31;
+        final int prime = 17;
         int result = 1;
         long temp;
         temp = Double.doubleToLongBits(lunghezza);
@@ -62,6 +62,4 @@ public class Rettangolo extends Forma {
         return true;
     }
 
-    
-    
 }
