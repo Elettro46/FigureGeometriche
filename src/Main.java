@@ -11,5 +11,8 @@ public class Main {
         System.out.println("area: " + f4.area() + " perimentro: " + f4.perimetro());
 
         //useless comment
+
+        System.out.println("Cerchio :"+f1.toString());
+        System.out.println("Rettangolo:"+f2.toString());
     }
 }
