@@ -9,5 +9,10 @@ public class Main {
         System.out.println("area: " + f3.area() + " perimentro: " + f3.perimetro());
         Forma f4 = new Rettangolo(100, 50);
         System.out.println("area: " + f4.area() + " perimentro: " + f4.perimetro());
+
+        //useless comment
+
+        System.out.println("Cerchio :"+f1.toString());
+        System.out.println("Rettangolo:"+f2.toString());
     }
 }

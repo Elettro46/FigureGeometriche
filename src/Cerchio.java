@@ -1,7 +1,7 @@
 public class Cerchio extends Forma {
 
     private double raggio;
-    
+
     public Cerchio(double raggio) {
         this.raggio = raggio;
     }
@@ -30,7 +30,7 @@ public class Cerchio extends Forma {
     }
 
     private double extracted() {
-        return 2*raggio*Math.PI;
+        return 2 * raggio * Math.PI;
     }
 
     @Override
@@ -56,5 +56,5 @@ public class Cerchio extends Forma {
             return false;
         return true;
     }
-    
 }
+// jhlkkkkkkkhjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
