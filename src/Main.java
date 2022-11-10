@@ -10,10 +10,13 @@ public class Main {
         Forma f4 = new Rettangolo(100, 50);
         System.out.println("area: " + f4.area() + " perimetro: " + f4.perimetro());
 
-        //useless comment
+        // useless comment
 
-        System.out.println("Circulo :"+f1.toString());
-        System.out.println("Rectangulo:"+f2.toString());
+        System.out.println("Circulo :" + f1.toString());
+        System.out.println("Rectangulo:" + f2.toString());
         System.out.println("Press (F) in the chat");
+
+        Forma quad = new Quadrato(8);
+        System.out.println("Quadrato: " + quad);
     }
 }
