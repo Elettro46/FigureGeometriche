@@ -4,3 +4,4 @@ bin/Main.class
 bin/Rettangolo.class
 FigureGeometriche.jar
 .gitignore
+*.class

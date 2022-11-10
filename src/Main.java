@@ -7,6 +7,7 @@ public class Main {
 
         Forma f3 = new Cerchio(50);
         System.out.println("area: " + f3.area() + " perimentro: " + f3.perimetro());
-
+        Forma f4 = new Rettangolo(100, 50);
+        System.out.println("area: " + f4.area() + " perimentro: " + f4.perimetro());
     }
 }
