@@ -62,4 +62,9 @@ public class Rettangolo extends Forma {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Rettangolo [lunghezza=" + lunghezza + ", altezza=" + altezza + "]";
+    }
+
 }

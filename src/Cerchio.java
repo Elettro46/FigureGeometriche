@@ -56,5 +56,9 @@ public class Cerchio extends Forma {
             return false;
         return true;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ae52c1e95ac618ada9a597be88cea644dd686dd2
 }
