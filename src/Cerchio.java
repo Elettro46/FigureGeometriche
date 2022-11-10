@@ -35,7 +35,7 @@ public class Cerchio extends Forma {
 
     @Override
     public int hashCode() {
-        final int prime = 17;
+        final int prime =11 ;
         int result = 1;
         long tmp;
         tmp = Double.doubleToLongBits(raggio);
