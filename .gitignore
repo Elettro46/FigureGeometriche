@@ -1,5 +1,6 @@
-src/Cerchio.class
-src/Forma.class
-src/Main.class
-src/Rettangolo.class
+bin/Cerchio.class
+bin/Forma.class
+bin/Main.class
+bin/Rettangolo.class
 FigureGeometriche.jar
+.gitignore
